@@ -69,7 +69,12 @@
     border: 0px solid rgb(37, 35, 35);
     border-radius: 8px;
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+.number div:hover {opacity: 0.7;}
+
 .num {
     font-size: 50px;
     padding: 15px;
@@ -82,8 +87,3 @@
     color: rgb(0, 0, 0);
     font-family: Tahoma, Verdana, sans-serif;
 }
-/* .curr-res {
-    font-size: 50px;
-    padding: 15px;
-    background-color: rgba(14, 231, 206, 0.783);
-} */
