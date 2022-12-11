@@ -18,6 +18,12 @@ function onNum(ev) {
     if(operator == "=") {
         clear();
     };
+    if(num == ".") {
+        if(result.textContent.endsWith(".")) {
+            return;
+        };
+    };
+    
     let num = ev.target.textContent;
     currNum += num;
     result.textContent = currNum;
