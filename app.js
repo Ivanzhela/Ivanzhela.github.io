@@ -19,7 +19,7 @@ function onNum(ev) {
         clear();
     };
     if(num == ".") {
-        if(result.textContent.endsWith(".")) {
+        if(result.textContent.includes(".")) {
             return;
         };
     };
