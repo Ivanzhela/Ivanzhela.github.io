@@ -5,11 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-html {
+/* html {
     background-image: url(/background.jpg);
     background-position: center;
 }
-
+ */
 .calculator {
     width: 450px;
     height: 670px;
