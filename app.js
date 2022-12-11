@@ -2,7 +2,7 @@ let result = document.querySelector("#result");
 let firstNum = 0;
 let operator = "";
 let currNum = "";
-let isScope = false;
+
 document.querySelectorAll(".num").forEach(a => a.addEventListener("click", ev => onNum(ev)));
 document.querySelectorAll(".operators").forEach(a => a.addEventListener("click", ev => onOperator(ev)));
 document.querySelector("i").addEventListener("click", () => {
@@ -19,15 +19,6 @@ function onNum(ev) {
         clear();
     };
     let num = ev.target.textContent;
-    if(num == "()") {
-        if(isScope == false) {
-            num = "(";
-            isScope = true;
-        } else {
-            num = ")";
-            isScope = false;
-        };
-    }
     currNum += num;
     result.textContent = currNum;
 };
