@@ -11,34 +11,40 @@
 
 <body>
     <main class="calculator">
-        <div class="result-wrapper" style="background-color: rgb(42, 42, 42);">
+        <div class="result-wrapper" style="background-color: rgb(84, 84, 84);">
             <div class="curr-res"></div>
-            <div id="result" style="color: rgba(65, 234, 226, 0.783);">0</div>
+            <div id="result" style="color: #00fff2;">0</div>
         </div>
         <div class="numbers-wrapper">
+            <div class="number">
+                <div class="operators" style="background-color: #00c4badc;" id="clear">C</div>
+                <i id="icon" class="fas fa-backspace"></i>
+                <div class="operators">%</div>
+                <div class="operators">/</div>
+            </div>
             <div class="number">
                 <div class="num">7</div>
                 <div class="num">8</div>
                 <div class="num">9</div>
-                <div class="operators" id="plus">+</div>
+                <div class="operators">*</div>
             </div>
             <div class="number">
                 <div class="num">4</div>
                 <div class="num">5</div>
                 <div class="num">6</div>
-                <div class="operators" id="minus">-</div>
+                <div class="operators">-</div>
             </div>
             <div class="number">
                 <div class="num">1</div>
                 <div class="num">2</div>
                 <div class="num">3</div>
-                <div class="operators" id="multiply">*</div>
+                <div class="operators">+</div>
             </div>
             <div class="number">
                 <div class="num">0</div>
-                <div class="operators">/</div>
-                <div class="operators" style="background-color: rgb(235, 149, 149);" id="clean">C</div>
-                <div class="operators" style="background-color: rgb(225, 235, 149);" id="equal">=</div>
+                <div class="num">00</div>
+                <div class="num">.</div>
+                <div class="operators" style="background-color: #00b3aadc;" id="equal">=</div>
             </div>
         </div>
     </main>
